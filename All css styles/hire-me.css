@@ -1,0 +1,119 @@
+@font-face {
+    font-family: myfonts;
+    src: url(D:\All-Codes\Portfolio\Fonts\Poppins-Medium.ttf);
+  }
+  * {
+    font-family: Poppins;
+    scroll-behavior: smooth;
+  }
+  .top-profile {
+    padding: 20px 40px 0;
+  }
+  .navigation-bar {
+    /*background-color: rgb(175, 175, 175);*/
+    width: 100%;
+    height: 70px;
+    display: flex;
+    padding: 0 10 0;
+  }
+  .profile-nav {
+    display: flex;
+    align-items: center;
+  }
+  .profile-nav img {
+    border-radius: 50%;
+    height: 4rem;
+    padding: 10px;
+  }
+  .profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+  }
+  .profile-text nav {
+    text-transform: capitalize;
+    font-size: 11px;
+  }
+  .profile-text nav:first-child {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+  }
+  .tab-nav {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 10px;
+  }
+  .tab-nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 11px;
+    color: black;
+    padding: 5px 19px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    font-weight: bolder;
+  }
+  .tab-nav a:hover,
+  .tab-nav a.active {
+    /* animation */
+    color: #ffffff;
+    background: #002920;
+    border: 2px solid #002920;
+    transition: 0.8s all ease 0s;
+  }
+
+
+
+  .ending-bar {
+    height: 2.5rem;
+    background: #000000;
+  }
+  .ending-bar ul img {
+    height: 20px;
+  }
+  .ending-bar ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ending-bar ul li:first-child {
+    display: flex;
+    gap: 1rem;
+    padding: 10px 57px;
+  }
+  .ending-bar ul li:nth-child(2) {
+    display: flex;
+    gap: 2rem;
+    padding: 11px 0;
+  }
+  .ending-bar ul li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  .ending-bar ul li:nth-child(2) a::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+  }
+  .ending-bar ul li:nth-child(2) a:hover::after {
+    content: "";
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 2px;
+    display: block;
+    transition: 0.5s all ease 0s;
+  }
+  .ending-bar ul li span {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 10px;
+    display: flex;
+    padding: 12px 60px;
+    font-weight: bolder;
+  }
