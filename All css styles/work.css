@@ -1,0 +1,351 @@
+@font-face {
+  font-family: myfonts;
+  src: url(Fonts\Poppins-Medium.ttf);
+}
+* {
+  font-family: Poppins;
+  scroll-behavior: smooth;
+}
+.top-profile{
+  background-image: linear-gradient(rgb(0 0 0 / 75%), rgba(0 0 0 / 30%)), url(d:/All-Codes/Portfolio/images/davinci.png);
+  width: 100%;
+  height: 60vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: drop-shadow(2px 4px 6px black);
+}
+.top-profile nav{
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 15px 4rem 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.tab-nav{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 15px 4rem 0;
+  display: flex;
+}
+.tab-nav a{
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 0 10px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.tab-nav a::after{
+  content: '';
+  background: rgb(0, 204, 255);
+  width: 0%;
+  height: 2px;
+}
+.tab-nav a:hover::after,
+.backwards::after,
+.tab-nav a:nth-child(2)::after
+{
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: rgb(0 76 255);
+  transition: 0.7s;
+  display: block;
+}
+/* --------------------work------------ */
+.works {
+  margin: 40px 40px 0;
+  columns: 3;
+  column-gap: 18px;
+  position: relative;
+}
+.gallery img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: 0.5s all ease-in;
+ }
+ .gallery img:hover{
+  filter: drop-shadow(2px 4px 6px black);
+  scale: 1.05;
+  transition:0.5s all ease-out;
+ }
+ /* ------------------conclusion----------- */
+ .conclusion {
+  height: 2.5rem;
+  width: 100%;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conclusion h1{
+  color: #ffffff;
+  margin: 0 2rem;
+  font-size: 11px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+@media (min-width: 0px) and (max-width: 320px) {
+  .top-profile {
+    height: 30vh;
+  }
+  .top-profile nav{
+    margin: 15px 10px 0;
+    font-size: 8px;
+  }
+  .tab-nav{
+    margin: 15px 5px 0;
+  }
+  .tab-nav a{
+    font-size: 6px;
+    padding: 0 5px;
+  }
+  .tab-nav a::after{
+    height: 1px;
+  }
+  .tab-nav a:hover::after,
+  .backwards::after,
+  .tab-nav a:nth-child(1)::after
+  {
+    height: 1px;
+  }
+/* --------------------work------------ */
+.works {
+  margin: 30px 0;
+  columns: 2;
+  column-gap: 10px;
+}
+.gallery img {
+  margin-bottom: 5px;
+ }
+ /* -----------------conclusion------------- */
+  .conclusion {
+    height: 1rem;
+  }
+  .conclusion h1{
+    margin: 0;
+    font-size: 5px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+  .top-profile {
+    height: 35vh;
+  }
+  .top-profile nav{
+    margin: 15px 10px 0;
+    font-size: 10px;
+  }
+  .tab-nav{
+    margin: 15px 5px 0;
+  }
+  .tab-nav a{
+    font-size: 8px;
+    padding: 0 5px;
+  }
+  .tab-nav a::after{
+    height: 2px;
+  }
+  .tab-nav a:hover::after,
+  .backwards::after,
+  .tab-nav a:nth-child(1)::after
+  {
+    height: 2px;
+  }
+/* --------------------work------------ */
+.works {
+  margin: 30px 0;
+  columns: 2;
+  column-gap: 10px;
+}
+.gallery img {
+  margin-bottom: 5px;
+ }
+ /* -----------------conclusion------------- */
+  .conclusion {
+    height: 1.5rem;
+  }
+  .conclusion h1{
+    margin: 0;
+    font-size: 7px;
+  }
+} 
+
+@media (min-width: 481px) and (max-width: 600px) {
+  .top-profile {
+    height: 40vh;
+  }
+  .top-profile nav{
+    margin: 15px 10px 0;
+    font-size: 12px;
+  }
+  .tab-nav{
+    margin: 15px 5px 0;
+  }
+  .tab-nav a{
+    font-size: 10px;
+    padding: 0 5px;
+  }
+  .tab-nav a::after{
+    height: 2px;
+  }
+  .tab-nav a:hover::after,
+  .backwards::after,
+  .tab-nav a:nth-child(1)::after
+  {
+    height: 2px;
+  }
+  /* --------------------work------------ */
+.works {
+  margin: 30px 0;
+  columns: 2;
+  column-gap: 10px;
+}
+.gallery img {
+  margin-bottom: 5px;
+ }
+ /* -----------------conclusion------------- */
+
+  .conclusion {
+    height: 1.5rem;
+  }
+  .conclusion h1{
+    margin: 0;
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+  .top-profile {
+    height: 50vh;
+  }
+  .top-profile nav{
+    margin: 15px 10px 0;
+    font-size: 12px;
+  }
+  .tab-nav{
+    margin: 15px 5px 0;
+  }
+  .tab-nav a{
+    font-size: 10px;
+    padding: 0 5px;
+  }
+  .tab-nav a::after{
+    height: 2px;
+  }
+  .tab-nav a:hover::after,
+  .backwards::after,
+  .tab-nav a:nth-child(1)::after
+  {
+    height: 2px;
+  }
+/* --------------------work------------ */
+.works {
+  margin: 30px 0;
+  columns: 2;
+  column-gap: 2rem;
+}
+.gallery img {
+  margin-bottom: 25px;
+ }
+ /* -----------------conclusion------------- */
+  .conclusion {
+    height: 1.5rem;
+  }
+  .conclusion h1{
+    margin: 0;
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1024px) {
+  .top-profile {
+    height: 55vh;
+  }
+  .top-profile nav{
+    margin: 15px 4rem 0;
+    font-size: 14px;
+  }
+  .tab-nav{
+    margin: 15px 4rem 0;
+  }
+  .tab-nav a{
+    font-size: 11px;
+    padding: 0 5px;
+  }
+  .tab-nav a::after{
+    height: 2px;
+  }
+  .tab-nav a:hover::after,
+  .backwards::after,
+  .tab-nav a:nth-child(1)::after
+  {
+    height: 2px;
+  }
+  /* --------------------work------------ */
+  .works {
+    margin: 30px 20px;
+    columns: 3;
+    column-gap: 1.5rem;
+  }
+  .gallery img {
+    margin-bottom: 20px;
+   }
+   /* -----------------conclusion------------- */
+  .conclusion {
+    height: 2rem;
+  }
+  .conclusion h1{
+    margin: 0;
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 1440px){
+  .top-profile {
+    height: 70vh;
+  }
+  .top-profile nav{
+    margin: 15px 4rem 0;
+    font-size: 17px;
+  }
+  .tab-nav{
+    margin: 15px 4rem 0;
+  }
+  .tab-nav a{
+    font-size: 14px;
+    padding: 0 5px;
+  }
+  .tab-nav a::after{
+    height: 3px;
+  }
+  .tab-nav a:hover::after,
+  .backwards::after,
+  .tab-nav a:nth-child(1)::after
+  {
+    height: 3px;
+  }
+  /* --------------------work------------ */
+  .works {
+    margin: 30px 20px;
+    columns: 3;
+    column-gap: 1.5rem;
+  }
+  .gallery img {
+    margin-bottom: 20px;
+   }
+   /* -----------------conclusion------------- */
+
+  .conclusion {
+    height: 2rem;
+  }
+  .conclusion h1{
+    margin: 0;
+    font-size: 10px;
+  }
+}
