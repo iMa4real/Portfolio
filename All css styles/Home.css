@@ -10,7 +10,7 @@
   box-sizing: border-box;
 }
 .top-profile {
-  background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 100%)), url(../images/man.jpg);
+  background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 100%)), url("../images/man.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
