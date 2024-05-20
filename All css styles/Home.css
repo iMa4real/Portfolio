@@ -387,8 +387,139 @@ flex-direction: row;
     font-size: 5px;
   }
 }
+/* ---------------my phone ----------------- */
+@media (min-width: 321px) and (max-width: 360px) {
+  .top-profile {
+    height: 30vh;
+  }
+  .top-profile nav{
+    margin: 15px 10px 0;
+    font-size: 8px;
+  }
+  .tab-nav{
+    margin: 15px 5px 0;
+  }
+  .tab-nav a{
+    font-size: 6px;
+    padding: 0 5px;
+  }
+  .tab-nav a::after{
+    height: 1px;
+  }
+  .tab-nav a:hover::after,
+  .backwards::after,
+  .tab-nav a:nth-child(1)::after
+  {
+    height: 1px;
+  }
+  .top-profile span{
+    font-size: 16px;
+  }
+  .top-profile span b{
+    font-size: 22px;
+  }
+  .top-profile span b button{
+    width: 4px;
+    height: 4px;
+  }
+  .about-me {
+    padding: 0;
+    gap: 1rem;
+  }
+  .about-me-pic img {
+    height: 12rem;
+  }
+  .about-me-description {
+    height: 12rem;
+    width: 9rem;
+  }
+  .about-me-description nav:first-child {
+    font-size: 14px;
+  }
+  .about-me-description nav:nth-child(2) {
+    font-size: 26px;
+    margin: 0 0 7px;
+  }
+  .about-me-text {
+    font-size: 5px;
+    padding: 0 0 2px;
+  }
+  #progress img {
+    margin: 0;
+}
+  .button button{
+    font-size: 3.5px;
+    margin-right: 5px;
+    padding: 5px;
+    margin-top: 6px;
+  }
+  .button button img{
+    height: 5px;
+    margin-right: 2px;
+  }
+  .service {
+    padding: 6px;
+  }
+  .service span {
+    font-size: 20px;
+    padding: 1rem;
+  }
+  .all-service {
+    columns: 2;
+    margin: 0;
+    gap: 3px;
+  }
+  .service-container {
+    height: 6rem;
+    width: 9rem;
+    margin-bottom: 4px;
+  }
+  .service-container img {
+    margin: 5px;
+    padding: 5px;
+    height: 1.2rem;
+  }
+  .service-text {
+    font-size: 8px;
+    margin: 0 6px 6px;
+  }
+  .service-text nav {
+    font-size: 5px;
+    margin-top: 3px;
+  }
+  .heading {
+    font-size: 20px;
+    margin: 9px;
+  }
+  .work-display {
+    columns: 2;
+    margin: 0;
+    column-gap: 6px;
+  }
+  .image {
+    margin-bottom: 6px;
+  }
+  .image img {
+    width: 100%;
+  }
+  .button-load-more-work {
+    margin: 20px;
+  }
+  .button-load-more-work button {
+    padding: 4px 5px;
+    font-size: 5px;
+    border: 1px solid;
+  }
+  .conclusion {
+    height: 1rem;
+  }
+  .conclusion h1{
+    margin: 0;
+    font-size: 5px;
+  }
+}
 /* ----------phone size start here ----------------- */
-@media (min-width: 321px) and (max-width: 480px) {
+@media (min-width: 361px) and (max-width: 480px) {
   .top-profile {
     height: 35vh;
   }
