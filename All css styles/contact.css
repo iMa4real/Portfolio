@@ -12,7 +12,7 @@ body{
   background: #2c2c2c;
 }
 .top-profile{
-  background-image: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)), url(./images/handtogether.jpg);
+  background-image: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 50%)), url("../images/handtogether.jpg");
   width: 100%;
   height: 50vh;
   background-position: center;
