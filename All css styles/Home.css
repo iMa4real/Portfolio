@@ -458,7 +458,7 @@ flex-direction: row;
     margin-right: 2px;
   }
   .service {
-    padding: 6px;
+    padding: 1rem;
   }
   .service span {
     font-size: 20px;
@@ -467,12 +467,11 @@ flex-direction: row;
   .all-service {
     columns: 2;
     margin: 0;
-    gap: 3px;
   }
   .service-container {
     height: 6rem;
     width: 9rem;
-    margin-bottom: 4px;
+    margin-bottom: 1rem;
   }
   .service-container img {
     margin: 5px;
