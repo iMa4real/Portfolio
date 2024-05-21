@@ -152,13 +152,13 @@ form span {
 input{
   padding: 25px 0 0;
   border: none;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #919191;
   outline: none;
 }
 textarea{
   height: 8rem;
   border: none;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #919191;
   outline: none;
 }
 button{
@@ -314,8 +314,114 @@ button img{
     font-size: 5px;
   }
 }
-
-@media (min-width: 321px) and (max-width: 480px){
+@media (min-width: 321px) and (max-width: 360px){
+  .top-profile {
+    height: 35vh;
+  }
+  .top-profile nav{
+    margin: 15px 10px 0;
+    font-size: 10px;
+  }
+  .tab-nav{
+    margin: 15px 5px 0;
+  }
+  .tab-nav a{
+    font-size: 8px;
+    padding: 0 5px;
+  }
+  .tab-nav a::after{
+    height: 2px;
+  }
+  .tab-nav a:hover::after,
+  .backwards::after,
+  .tab-nav a:nth-child(1)::after
+  {
+    height: 2px;
+  }
+  .top-profile h1{
+    margin-left: 1.4rem;
+    font-size: 2.2rem;
+    line-height: 0.8;
+  }
+  /* ----------------------particulars----------- */
+  .particular{
+    margin: 19px 0 0;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #contactMe{
+    display: flex;
+    width: 21rem;
+    height: max-content;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+  }
+  #contactMe span{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .address{
+    font-size: 0.6rem;
+  }
+  .address p,
+  .contact p{
+    font-size: 0.4rem;
+    margin-bottom: 4px;
+  }
+  .address p img,
+  .contact p img{
+    height: 1.8rem;
+    margin-bottom: 5px;
+  }
+  .contact{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.6rem;
+  }
+  /* ----------------------form------------- */
+  form{
+    width: 19rem;
+    height: 19rem;
+  }
+  form span {
+    font-size: 0.4rem;
+    }
+  input{
+    padding: 15px 0 0;
+    font-size: 0.6rem;
+  }
+  textarea{
+    height: 4rem;
+    font-size: 0.6rem;
+  }
+  button{
+    width: 6rem;
+    height: 2.2rem;
+    gap: 5px;
+    margin: 10px 0 0;
+    font-size: 0.5rem;
+  }
+  button img{
+    height: 1rem;
+  }
+  /* -----------------------conclusion------------- */  
+  
+  .conclusion {
+    height: 1.5rem;
+    position: relative;
+  }
+  .conclusion h1{
+    margin: 0;
+    font-size: 7px;
+  }
+} 
+@media (min-width: 361px) and (max-width: 480px){
   .top-profile {
     height: 35vh;
   }
@@ -422,7 +528,6 @@ button img{
     font-size: 7px;
   }
 } 
-
 @media (min-width: 481px) and (max-width: 600px) {
   .top-profile {
     height: 40vh;
@@ -743,7 +848,6 @@ button img{
     font-size: 10px;
   }
 }
-
 @media (min-width: 1281px) and (max-width: 1440px){
   .top-profile {
     height: 70vh;
@@ -845,3 +949,4 @@ button img{
     font-size: 10px;
   }
 }
+ 
