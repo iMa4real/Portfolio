@@ -57,19 +57,44 @@
   display: block;
 }
 /* --------------------work------------ */
-.works {
+.work-heading h1{
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: cursive;
+  padding-top: 10px;
+}
+.thumbnail,
+.event-graphics,
+.infographics,
+.print-material,
+.website-graphics,
+.ui-ux{
   margin: 40px 40px 0;
   columns: 3;
   column-gap: 18px;
   position: relative;
 }
-.gallery img {
+.event-graphics{
+  columns: 2;
+  column-gap: 2rem;
+}
+.thumbnail img,
+.event-graphics img,
+.infographics img,
+.print-material img,
+.website-graphics img,
+.ui-ux img {
   max-width: 100%;
-  border-radius: 10px;
   margin-bottom: 10px;
   transition: 0.5s all ease-in;
  }
- .gallery img:hover{
+ .thumbnail img:hover,
+.event-graphics img:hover,
+.infographics img:hover,
+.print-material img:hover,
+.website-graphics img:hover,
+.ui-ux img:hover{
   filter: drop-shadow(2px 4px 6px black);
   scale: 1.05;
   transition:0.5s all ease-out;
@@ -115,14 +140,28 @@
     height: 1px;
   }
 /* --------------------work------------ */
-.works {
+.thumbnail,
+.event-graphics,
+.infographics,
+.print-material,
+.website-graphics,
+.ui-ux {
   margin: 30px 0;
   columns: 2;
   column-gap: 10px;
 }
-.gallery img {
+.thumbnail img,
+.event-graphics img,
+.infographics img,
+.print-material img,
+.website-graphics img,
+.ui-ux img {
   margin-bottom: 5px;
  }
+ .work-heading h1{
+  font-size: 5px;
+  padding-top: 5px;
+}
  /* -----------------conclusion------------- */
   .conclusion {
     height: 1rem;
@@ -158,14 +197,28 @@
     height: 2px;
   }
 /* --------------------work------------ */
-.works {
+.thumbnail,
+.event-graphics,
+.infographics,
+.print-material,
+.website-graphics,
+.ui-ux {
   margin: 30px 0;
-  columns: 2;
   column-gap: 10px;
+  columns: 2;
 }
-.gallery img {
+.thumbnail img,
+.event-graphics img,
+.infographics img,
+.print-material img,
+.website-graphics img,
+.ui-ux img {
   margin-bottom: 5px;
  }
+ .work-heading h1{
+  font-size: 9px;
+  padding-top: 10px;
+}
  /* -----------------conclusion------------- */
   .conclusion {
     height: 1.5rem;
@@ -201,14 +254,27 @@
     height: 2px;
   }
   /* --------------------work------------ */
-.works {
-  margin: 30px 0;
-  columns: 2;
-  column-gap: 10px;
-}
-.gallery img {
-  margin-bottom: 5px;
- }
+  .thumbnail,
+  .event-graphics,
+  .infographics,
+  .print-material,
+  .website-graphics,
+  .ui-ux {
+    margin: 30px 0;
+    columns: 2;
+    column-gap: 10px;
+  }
+  .thumbnail img,
+  .event-graphics img,
+  .infographics img,
+  .print-material img,
+  .website-graphics img,
+  .ui-ux img {
+    margin-bottom: 5px;
+   }
+   .work-heading h1{
+    font-size: 10px;
+  }
  /* -----------------conclusion------------- */
 
   .conclusion {
@@ -245,14 +311,27 @@
     height: 2px;
   }
 /* --------------------work------------ */
-.works {
+.thumbnail,
+.event-graphics,
+.infographics,
+.print-material,
+.website-graphics,
+.ui-ux {
   margin: 30px 0;
   columns: 2;
-  column-gap: 2rem;
+  column-gap: 10px;
 }
-.gallery img {
-  margin-bottom: 25px;
+.thumbnail img,
+.event-graphics img,
+.infographics img,
+.print-material img,
+.website-graphics img,
+.ui-ux img {
+  margin-bottom: 5px;
  }
+ .work-heading h1{
+  font-size: 12px;
+}
  /* -----------------conclusion------------- */
   .conclusion {
     height: 1.5rem;
@@ -288,14 +367,27 @@
     height: 2px;
   }
   /* --------------------work------------ */
-  .works {
-    margin: 30px 20px;
+  .thumbnail,
+  .event-graphics,
+  .infographics,
+  .print-material,
+  .website-graphics,
+  .ui-ux {
+    margin: 30px 0;
     columns: 3;
-    column-gap: 1.5rem;
+    column-gap: 10px;
   }
-  .gallery img {
-    margin-bottom: 20px;
+  .thumbnail img,
+  .event-graphics img,
+  .infographics img,
+  .print-material img,
+  .website-graphics img,
+  .ui-ux img {
+    margin-bottom: 5px;
    }
+   .work-heading h1{
+    font-size: 14px;
+  }
    /* -----------------conclusion------------- */
   .conclusion {
     height: 2rem;
@@ -331,14 +423,7 @@
     height: 3px;
   }
   /* --------------------work------------ */
-  .works {
-    margin: 30px 20px;
-    columns: 3;
-    column-gap: 1.5rem;
-  }
-  .gallery img {
-    margin-bottom: 20px;
-   }
+
    /* -----------------conclusion------------- */
 
   .conclusion {
